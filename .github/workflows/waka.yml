@@ -21,31 +21,3 @@ jobs:
           SHOW_LOC_CHART: "True"
           SHOW_PROJECTS: "False"
           SHOW_PROFILE_VIEWS: "False"
-```
-
-4. Click **"Commit changes"**
-
----
-
-### **Step 5 — Run It Manually the First Time**
-
-The schedule runs at midnight, but you can trigger it right now:
-
-1. In your profile repo, click the **"Actions"** tab
-2. In the left sidebar, click **"WakaTime Stats"**
-3. Click **"Run workflow"** → **"Run workflow"** (green button)
-4. Wait ~30 seconds → refresh the page
-5. Go back to your profile README — the WakaTime section will now show your live stats
-
----
-
-### **What It Looks Like When Working**
-
-The `<!--START_SECTION:waka-->` block in your README will automatically update to show something like:
-```
-📊 This week I coded for 14 hrs 22 mins
-
-Python          8 hrs 10 mins  ████████████░░  56.8%
-JavaScript      3 hrs 45 mins  █████░░░░░░░░░  26.1%
-CSS             1 hr 20 mins   ██░░░░░░░░░░░░   9.3%
-HTML            57 mins        █░░░░░░░░░░░░░   6.6%
